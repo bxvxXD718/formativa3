@@ -1,0 +1,17 @@
+<p>solicitudes-contactos works!</p>
+<h2> solicitudes realizadas desde formulario</h2>
+<table>
+    <tr>
+        <th>Nombre</th>
+        <th>Correo</th>
+        <th>mensaje</th>
+    </tr>
+ <tr *ngFor="let solicitud of solicitudes">
+
+<td>{{ solicitud.nombre }}</td>
+
+<td>{{ solicitud.correo }}</td>
+
+<td>{{ solicitud.mensaje }}</td>
+    </tr> 
+</table>
